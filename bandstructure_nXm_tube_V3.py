@@ -8,8 +8,13 @@ __version__ = "3"
 __maintainer__ = "Pramit Barua"
 __email__ = ["pramit.barua@student.kit.edu", "pramit.barua@gmail.com"]
 
-# band structure of (N, N) armchair CNT
-# this code matches with wolfram CDF player therefore we should follow this
+'''
+band structure of (n,m) CNT
+This code calculates and plots the tight-binding (TB) electronic band 
+structure of a single-walled carbon nanotube (SWNT) according to the 
+zone-folding (ZF) method. This code works for any chirality (n,m) tube.  
+This code matches with wolfram CDF player.
+'''
 
 import numpy
 import math
